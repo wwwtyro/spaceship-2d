@@ -1,0 +1,54 @@
+.dg.main .close-button {
+    display: none;
+}
+
+.dg {
+    color: #fafafa;
+    text-shadow: none !important;
+}
+
+.dg li:not(.folder) {
+    background: #222;
+    border-bottom: none;
+    border-left: none !important;
+    padding: 2px !important;
+}
+
+.dg li.save-row .button {
+    text-shadow: none !important;
+}
+
+.dg li.title {
+    background: #555;
+    background-image: none !important;
+    font-weight: bold;
+}
+
+.cr.function {
+    color: #FA0;
+    text-decoration: underline !important;
+}
+
+.dg .cr.function:hover,.dg .cr.boolean:hover {
+    background: #333;
+}
+
+.dg .c input[type=text] {
+    background: #333;
+}
+
+.dg .c input[type=text]:hover {
+    background: #222;
+}
+
+.dg .c input[type=text]:focus {
+    background: #222;
+}
+
+.dg .c .slider {
+    background: #333;
+}
+
+.dg .c .slider:hover {
+    background: #222;
+}

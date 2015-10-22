@@ -1,0 +1,37 @@
+<div id="save-dialog-progress"></div>
+
+<div id="save-dialog-table">
+    <table>
+        <tr>
+            <td>Resolution</td>
+            <td>
+                <select id="save-dialog-resolution" class="fixy">
+                    <option value="256">256</option>
+                    <option value="512" selected>512</option>
+                    <option value="1024">1024</option>
+                    <option value="2048">2048</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Count</td>
+            <td>
+                <input type="number" min="1" value="1" class="fixy" id="save-dialog-count"/>
+            </td>
+        </tr>
+        <tr><td>&nbsp;</td></tr>
+        <tr>
+            <td></td>
+            <td>
+                <button id="save-dialog-save" class="fixy">Save</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<br>
+
+<div id="save-dialog-container"></div>
+
+
+<input type="file" nwsaveas id="save-dialog-filename"/>
